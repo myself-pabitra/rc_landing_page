@@ -1,0 +1,55 @@
+.ftco-blocks-cover-1 {
+  position: static;
+}
+.ftco-cover-1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ftco-cover-1,
+.ftco-cover-1 .container > .row {
+  height: 100vh;
+  min-height: 670px;
+}
+.ftco-cover-1 > .container {
+  position: relative;
+}
+.ftco-cover-1.overlay {
+  position: relative;
+}
+@media (max-width: 575.98px) { 
+.ftco-cover-1 {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+ }
+.ftco-cover-1.overlay:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #000;
+}
+.ftco-cover-1.overlay h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.ftco-cover-1.overlay h1.line-bottom {
+  position: relative;
+  padding-bottom: 30px;
+}
+.ftco-cover-1.overlay h1.line-bottom:after {
+  content: "";
+  background: #fb7400;
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 7px;
+  left: 0;
+}
